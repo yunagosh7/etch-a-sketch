@@ -1,0 +1,16 @@
+h1{
+    font-size: 3rem;
+    margin: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(16, 40px);
+    grid-template-rows: repeat(16, 40px);
+}
+
+.grid-item{
+    border:2px solid #555;
+}
