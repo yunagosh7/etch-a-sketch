@@ -1,5 +1,11 @@
 const btn = document.getElementById("btn");
 const main = document.getElementById("main")
+const inputRange = document.getElementById("inputRange")
+const labelRange = document.getElementById("labelRange")
+
+console.log(inputRange.value)
+
+
 
 let divs = [];
 
@@ -53,13 +59,14 @@ const createGrid = n =>{
 }
 
 
-console    
+inputRange.addEventListener("mousemove",()=>{
 
+    labelRange.innerText = inputRange.value;
+})
 
 btn.addEventListener("click",()=>{
-    let n = 0;
-    n = prompt("num");
-    n = parseInt(n)
+
+    n = inputRange.value;
     createGrid(n);
     divs.forEach(div=>{
         div.addEventListener("click",()=>{
@@ -67,6 +74,9 @@ btn.addEventListener("click",()=>{
         })
     })
     })
+
+
+
 
 
 
