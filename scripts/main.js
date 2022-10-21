@@ -1,7 +1,7 @@
 const btn = document.getElementById("btn");
 const main = document.getElementById("main")
 
-let divs = []
+let divs = [];
 
 const container = document.createElement("div");
 container.id = "container";
@@ -17,7 +17,18 @@ for(let i = 0; i < 256;i++){
     }
     container.appendChild(fragment)
     main.appendChild(container)
+    container.childNodes.forEach(c=>{
+        divs.push(c);
+    })
+    divs.forEach(div=>{
+        div.addEventListener("click",()=>{
+            div.style.backgroundColor = "#e55"
+        })
+    } )
 }
+
+
+
 
 displayGrid()
 
@@ -42,8 +53,8 @@ const createGrid = n =>{
 }
 
 
-    
-    
+console    
+
 
 btn.addEventListener("click",()=>{
     let n = 0;
@@ -52,7 +63,7 @@ btn.addEventListener("click",()=>{
     createGrid(n);
     divs.forEach(div=>{
         div.addEventListener("click",()=>{
-            div.style.backgroundColor = "red"
+            div.style.backgroundColor = "#e55"
         })
     })
     })
