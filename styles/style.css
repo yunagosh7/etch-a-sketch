@@ -1,16 +1,23 @@
-h1{
-    font-size: 3rem;
-    margin: 15px;
-    text-align: center;
-    font-weight: bold;
+h1 {
+  font-size: 3rem;
+  margin: 15px;
+  text-align: center;
+  font-weight: bold;
 }
 
-#container, #container2{
-    display: grid;
-    width: 700px;
-    height:700px;
+#container,
+#container2 {
+  display: grid;
+  width: 700px;
+  height: 700px;
+  margin: 50px auto;
+  border: 2px solid #666;
 }
 
-.grid-item{
-    border:2px solid #555;
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+main {
+  text-align: center;
 }
