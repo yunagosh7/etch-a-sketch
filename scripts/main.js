@@ -6,7 +6,6 @@ const inputColor = document.getElementById("inputColor");
 const erase = document.getElementById("erase");
 labelRange.innerText = inputRange.value
 
-console.log(inputRange.value);
 let color = "#000";
 inputColor.addEventListener("change",()=>{
   color = inputColor.value

@@ -3,7 +3,25 @@ h1 {
   margin: 15px;
   text-align: center;
   font-weight: bold;
+  color: #ffffff;
 }
+
+.modifiers{
+  text-align: center;
+}
+
+button{
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #02213f;
+  padding: 5px 15px;
+  margin: 0 5px;
+}
+
+
+
 
 #container,
 #container2 {
@@ -11,13 +29,18 @@ h1 {
   width: 700px;
   height: 700px;
   margin: 50px auto;
-  border: 2px solid #666;
-}
+  border: 2px solid #000;
+} 
 
 .grid-item {
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #0000000b ;
+  background-color: #fff;
 }
 
 main {
   text-align: center;
+}
+
+body{
+  background-color: #535b61;
 }
