@@ -1,2 +1,3 @@
 # Etch-A-Sketch
-> En este proyecto no me concentre en lo estetico, me enfoque mas en aprender a manipular el dom cuando tengo muchos elementos similares a los que aplicarles eventos
+### **https://yunagosh7.github.io/etch-a-sketch/**
+> En este proyecto mejore la manipulación del DOM y entendí mejor display:grid 
