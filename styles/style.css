@@ -1,32 +1,36 @@
+body {
+  background-color: #292929;
+}
+
 h1 {
   font-size: 3rem;
   margin: 15px;
   text-align: center;
   font-weight: bold;
   color: #ffffff;
+  font-family: 'Syncopate', sans-serif;
 }
 
-.modifiers{
+.modifiers {
   text-align: center;
 }
 
-button{
+button {
   border: none;
   font-size: 1.2rem;
   font-weight: bold;
   color: #fff;
-  background-color: #02213f;
+  background-color: #061049;
   padding: 5px 15px;
+  cursor: pointer;
   margin: 0 5px;
 }
 
-.modifiers label{
-  color:#fff;
+.modifiers label {
+  color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
 }
-
-
 
 #container,
 #container2 {
@@ -35,17 +39,13 @@ button{
   height: 700px;
   margin: 50px auto;
   border: 2px solid #000;
-} 
+}
 
 .grid-item {
-  border: 1px solid #0000000b ;
+  border: 1px solid #0000000b;
   background-color: #fff;
 }
 
 main {
   text-align: center;
-}
-
-body{
-  background-color: #535b61;
 }
